@@ -1,0 +1,331 @@
+body{ 
+    background: #EEF0E5;
+    margin: 0em;
+}
+header{
+    position: fixed;
+    width: 100%;
+    margin: 0em;
+    background: #86A789;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    z-index: 2;
+}
+#div1{
+    display: inline-block;
+    width: 57%;
+    margin: 0em 0em 0em 0.5em;
+}
+#ministere{
+    display: inline-block;
+    width: 6em;
+    height: 3em;
+    margin: 0.5em 0em 0em 0.7em;
+}
+nav{
+    display: inline-block;
+    text-align: right;
+    vertical-align: top; 
+    width: 40%;
+    height: 3em;
+    margin: 0em 0em 0em 0em;
+    padding: -1em 0em 1em 0em; 
+}
+nav ul{
+    list-style-type: none;
+    width: 40em;
+    padding-left: 0;
+}
+nav li{
+    display: inline-block;
+    margin-right: 1em;
+}
+nav a{
+    font-family: 'Sacramento', cursive; 
+    font-size: 1.6em;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px #5C8374;
+    color: #092635;
+    padding-top: 0em;
+}
+nav a:hover, nav ul ul li a:hover{
+    color: #D2E3C8;
+    text-decoration: underline;
+}
+#sitestouristiques{
+    cursor: wait;
+}
+li:hover ul{
+    display: block;
+}
+ul ul{
+    display: none;
+    position: absolute;
+    background-color: #70978a;
+    max-width: 9em;
+    padding: 0.2em 0em 0.2em 0.4em;
+    border: 1px solid #092635;
+    border-radius: 7px;
+}
+ul ul li{
+    display: block;
+    text-align: left;
+}
+nav ul ul li a{
+    color: #092635;
+}
+#contact{ 
+    border-radius: 7px;
+    background-color: #092635;
+    color: #86A789;
+    padding: 0.2em 0.4em 0em 0.2em;
+    text-shadow: none;
+}
+#contact:hover{
+    text-decoration: none;
+    background-color: #5C8374;
+    color: #092635;
+}
+p{
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.07em;
+    margin: 1em 1.7em 0.5em 1.7em;
+    font-style: italic;
+}
+h1{
+    font-family: 'Sacramento', serif;
+    font-size: 3em;
+    text-shadow: 3px 3px 3px #5C8374;
+    margin: 0.2em 1em -0.3em 1em; 
+}
+#acceuil{
+    margin-top: 3em;
+    width: 100%;
+    height: 27em;
+    border-radius: 7px;
+}
+.textbox{
+    position: absolute;
+    z-index: 2;
+    top: 55%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    color: #092635;
+    background: rgba(251, 255, 247, 0.7);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4em;
+    padding: 0.1em 0.4em 0.2em 0.3em;
+    text-align: left;
+    border-radius: 7px;
+    z-index: 1;
+}
+#up{
+    position: fixed;
+    background: #092635;
+    top: 88%;
+    left: 94%;
+    width: 1.9em;
+    height: 1.9em;
+    padding: 0.4em 0em 0em 0.3em;
+    border-radius: 7px;
+}
+#section2{
+    display: inline-block;
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#section3{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 1em;
+}
+#section4{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+#contact2{
+    float: left;
+    width: 45%;
+    border-right: 1px solid black;
+    margin-left: 3em;
+}
+#contact3{
+    float: left;
+    width: 47%;
+    padding-left: 3em;
+}
+#map{
+    float: left;
+    width: 45%;
+    border-right: 1px solid black;
+    margin-left: 3em;
+}
+#map2{
+    float: left;
+    width: 45%;
+    padding-left: 1em;
+    padding-right: 0em;
+    padding-left: 5em;
+}
+#form{
+    float: left;
+    width: 35%;
+    border-right: 1px solid black;
+    margin-top: 1.1em;
+    margin-left: 3em;
+}
+#form2{
+    float: left;
+    width: 47%;
+    margin-top: 1.5em;
+    padding-left: 3em;
+}
+#sub-form{
+    margin-top: 1em;
+}
+#label{
+    margin-left: 4em;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+}
+#text1{
+    background-color: #EEF0E5;
+    color: #092635;
+    font-size: 1em;
+    outline: none;
+    font-family: 'Zilla Slab', serif;
+    width: 12em;
+    margin-left: 3em;
+    border: 1px solid #092635;
+    border-radius: 7px;
+}
+#text2{
+    background-color: #EEF0E5;
+    color: #092635;
+    font-size: 1em;
+    outline: none;
+    font-family: 'Zilla Slab', serif;
+    width: 12em;
+    margin-left: 3.8em;
+    border: 1px solid #092635;
+    border-radius: 7px;
+}
+#text3{
+    background-color: #EEF0E5;
+    color: #092635;
+    font-size: 1em;
+    outline: none;
+    font-family: 'Zilla Slab', serif;
+    width: 12em;
+    margin-left: 1.7em;
+    border: 1px solid #092635;
+    border-radius: 7px;
+}
+#spacing{
+    margin-bottom: 0.3em;
+}
+#button{
+    border: 1px solid #092635;
+    border-radius: 7px;
+    color: #86A789;
+    background-color: #092635;
+    padding: 0.1em 0.3em 0.1em 0.3em;
+    text-shadow: none;
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 60%;
+    margin-top: 0.5em;
+}
+#textarea{
+    background-color: #EEF0E5;
+    color: #092635;
+    font-size: 1em;
+    outline: none;
+    font-family: 'Zilla Slab', serif;
+    margin-left: 1.7em;
+    border: 1px solid #092635;
+    border-radius: 7px;
+}   
+#title{
+    font-family:'Sacramento', cursive; 
+    font-size: 1.6em;
+    font-weight: bold;
+    background-color: #86A789;
+    color: #092635;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: 10em;
+    height: 1.4em;
+    font-style: normal;
+    padding-top: 0.1em;
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+}
+#ul{
+    margin-left: 3em;
+    font-family: 'Zilla Slab', serif;
+}
+
+
+
+#footer {
+    margin-top: 2em;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px; 
+    background: url(../images/waves.PNG);
+    background-size: 100% 75px;
+    overflow: hidden;
+    animation: wave 10s linear infinite;
+}
+#foot{
+    border-top: 1px solid black;  
+}
+#footp{
+    float: left;
+    width: 53%;
+    font-weight: bold;
+    margin-top: 0.7em;   
+}
+#footd{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5em;
+    float: left;
+    width: 40%;  
+}
+#facebook{
+    width: 1.05em;
+    height: 1.4em;
+    margin-left: 0.4em;
+    padding-top: 0.3em;
+}
+#twitter{
+    width: 1.3em;
+    height: 1.3em;
+    margin-left: 0.4em;
+    padding-top: 0.35em;
+}
+#linkedin{
+    width: 1.6em;
+    height: 1.5em;
+    margin-left: 0.4em;
+    padding-top: 0.2em;
+}
+#instagram{
+    width: 1.7em;
+    height: 1.7em;
+    margin-left: 0.35em;
+    padding-top: 0.1em;
+}
+@keyframes wave {
+    0%{background-position-x: 0px;}   
+    50%{background-position-x: 500px;}   
+    100%{background-position-x: 1000px;}
+}
